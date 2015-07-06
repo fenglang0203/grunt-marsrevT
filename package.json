@@ -1,7 +1,7 @@
 {
-    "name": "grunt-marsrevT",
+    "name": "grunt-marsrevt",
     "description": "file hash rename",
-    "version": "1.0.12",
+    "version": "1.0.13",
     "homepage": "https://github.com/fenglang0203/grunt-marsrevT",
     "author": "dutao <wangyi_dutao@163.com> (http://fenglang0203.github.io)",
     "repository": {
