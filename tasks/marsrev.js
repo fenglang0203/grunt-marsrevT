@@ -257,7 +257,7 @@ var deal = function (options, grunt) {
         var originName = path.basename(targetPath);
         var prefix;
         if(this.options.prefix){
-            if(this.options.prefix == "timestamp"){
+            if(this.options.prefix === "timestamp"){
                 prefix = new Date().getTime();
             }else{
                 prefix = this.options.prefix;
