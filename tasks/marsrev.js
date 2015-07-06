@@ -264,7 +264,7 @@ var deal = function (options, grunt) {
             }
         }else{
             var hash = createHashforFile(targetPath, this.options.hash.inputEncoding, this.options.hash.algorithm);
-            var prefix = hash.slice(0, this.options.hash.length);
+            prefix = hash.slice(0, this.options.hash.length);
         }
         // clear hash prefix from file name
         var filePathMatch = originName.match(filePathPattern);
